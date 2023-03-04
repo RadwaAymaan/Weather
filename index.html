@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <header>
+        
+        <nav class="navbar navbar-expand-lg">
+            <div class="container d-flex justify-content-between "> 
+                <a href="index.html" class="logo d-flex">
+                    <img src="images/logo@2x.png" alt="logo" width="64" height="38">
+                    <div class="logo-details">
+                      <h1 class="site-title">Weather</h1>
+                      <small class="site-description">tagline goes here</small>
+                    </div>
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 offset-5">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Live cameras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="clr"></div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="main" data-bg-image="./images/banner.png" style="background-image: url(&quot;./images/banner.png&quot;);">
+      <div class="container">
+        <div class="search-container d-flex">
+        <input type="text" placeholder="Find your location..." class="form-control" id="search">
+        <button class="btn" id="submit">Find</button>
+      </div>
+    </div>
+    </div>
+    <div class="forecast-table">
+      <div class="container">
+        <div class="forecast-container" id="forecast">
+          <!-- <div class="today forecast">
+            <!-- <div id="today" class="forecast-header">
+                <div class="day"></div>
+                <div class="date"></div>
+                <div class="crl"></div>
+            </div> -->
+            <!-- <span><img src="./images/icon-umberella.png" alt="">
+              20%</span>
+              <span><img src="./images/icon-wind.png" alt="">
+              18km/h</span>
+              <span><img src="./images/icon-compass.png" alt="">
+                  East
+              </span> -->
+           
+          </div>
+      </div>
+      </div> 
+    <div class="footer">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+        <div class="col-md-8 footer-content d-flex">
+          <input type="text" placeholder="Enter your email to subscribe..." class="form-control" id="subscribe">
+          <button class="btn" id="subscribe">Subscribe</button>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-icons">
+            <a href="">
+            <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-goodreads-g"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-pinterest"></i>
+                  </a>
+          </div>
+        </div>
+      </div>
+      <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+    </div>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
